@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Map</title>
+      <link rel="stylesheet" href="style.css">
+       <!--       Used google fonts Oswald and Praise -->
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Praise&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <!-- link to script file     -->
+      <script src="script.js"></script> 
+       <!--    script to call googlemaps API -->
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2OLc17_YRXyDVArUdm9TyUzo74n1BG0M&callback=initMap"
+      async >
+      </script>
+    
+      <!-- Link to jquery -->
+      <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous">
+      </script> 
+   </head>
+
+  <body>
+     <!--div container for map      -->
+    <div id="map-canvas"></div> 
+    
+<!--     div QA for questions and timer -->
+    <h1>CSUN MAP QUIZ!</h1>
+      <p class="heading">Please double click on the map location</p>
+      <div class="QA">
+        <p id="timer">00:00:00</p>
+        <div id="status"></div>
+         <p class="questions" id="q1">Where is Experimental Theatre?</p><div id="icon"><div>
+            <p class="questions" id="q2">Oviatt Library?</p>
+            <p class="questions" id="q3">Bayramian Hall?</p>
+            <p class="questions" id="q4">Live oak Hall?</p>
+            <p class="questions" id="q5">Sierra hall?</p>
+            <div id="total"></div>
+            <div id="totalw"></div>
+      </div> 
+        
+    </body>
+</html>
