@@ -1,0 +1,67 @@
+/* @font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
+} */
+
+/*style for map, pushed it to right  */
+#map-canvas {
+  float: right;
+  height: 500px;
+   width: 50%;
+  
+}
+body{
+  background-color:#f7ede2;
+}
+/*style for questions, questions will be shown left side of the page  */
+.QA{
+   width: 30%;
+   float: left;
+  
+}
+
+.questions{
+font-family: 'Praise', cursive;
+  font-size:40px;
+  width:120%;
+  color:orange;
+  margin:0;
+}
+
+.icon{
+  width:30%;
+  float:right;
+  
+}
+#timer{
+  font-family: 'Praise', cursive;
+  font-size:40px;
+  width:100%;
+  margin:0;
+}
+#total
+{
+  font-family: 'Praise', cursive;
+  font-size:40px;
+  width:100%;
+  color:green;
+}
+#totalw
+{
+  font-family: 'Praise', cursive;
+  font-size:40px;
+  width:120%;
+  color:red;
+}
+#status{
+  font-family: 'Praise', cursive;
+  font-size:40px;
+  width:100%;
+}
+
+.heading{
+  font-family: 'Lato', sans-serif;
+  
+}
